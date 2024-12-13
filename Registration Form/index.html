@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>College Registration Form</h1>
+        <form action="">
+          <fieldset>
+            <div class="input-field">
+              <label>Name</label>
+              <input type="text" class="inputs" name="usrname">
+            </div>
+            <div class="input-field">
+              <label>Father's name</label>
+              <input type="text" class="inputs" name="usrname">
+            </div>
+            <div class="input-field">
+              <label>Mother's name</label>
+              <input type="text" class="inputs" name="usrname">
+            </div>
+            <div class="input-field">
+              <label>Email</label>
+              <input type="email" class="inputs">
+            </div>
+            <div class="input-field">
+              <label class="gender">Gender</label>
+              <input type="radio" name="gender" value="male"><span class="small-text">Male</span>
+              <input type="radio" name="gender" value="female"><span class="small-text">Female</span>
+            </div>
+            <div class="input-field">
+              <label>Password</label>
+              <input type="password" class="inputs">
+            </div>
+          </fieldset>
+    
+          <fieldset>
+            <div class="input-field">
+              <label class="message">Address</label>
+              <textarea class="textarea"></textarea>
+            </div>
+            <div class="input-field">
+              <label class="city">City</label>
+              <select name="city" id="" class="inputs">
+                <option value="0">Select City</option>
+                <option value="1">Kochi</option>
+                <option value="2">Kannur</option>
+                <option value="3">Alapuzha</option>
+                <option value="4">Kollam</option>
+              </select>
+            </div>
+            <div class="input-field">
+              <label>Zip code</label>
+              <input type="number" class="inputs">
+            </div>
+            <div class="input-field">
+              <label>Phone No</label>
+              <input type="number" class="inputs">
+            </div>
+            <div class="input-field">
+              <label class="courses">Courses</label>
+              <input class="" type="checkbox" value="app-development"><span class="small-text">App Development</span>
+              <input class="" type="checkbox" value="marketing"><span class="small-text">Marketing</span>
+            </div>
+            <div class="input-field">
+              <label>Upload Certificates</label>
+              <input type="file" class="inputs">
+            </div>
+          </fieldset>
+    
+          <div class="button">
+            <button type="submit" class="submit">Submit</button>
+            <button type="reset" class="reset">Reset</button>
+          </div>
+        </form>
+      </div>
+</body>
+</html>

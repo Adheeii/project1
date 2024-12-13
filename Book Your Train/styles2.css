@@ -1,0 +1,146 @@
+.trainjpg{
+    background-image: url(/assests/train2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+html, body {
+    height: 100vh;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#title {
+    color: rgb(161, 78, 237);
+    font-size: 30px;
+    font-weight: 600;
+    font-display: ;
+}
+.button {
+    margin-top: 20px;
+    border-radius: 10px;
+    border-color: rgb(255, 210, 246);
+    width: 80px;
+    color: rgb(133, 133, 133);
+    background-color: rgb(255, 255, 255);   
+}
+.button:hover{
+    background-color: rgb(255, 163, 209); color: rgb(255, 255, 255);
+}
+.SignUp_Password{
+    text-decoration: none;
+    font-size: small; font-weight: 600; color: rgb(254, 254, 254);
+}
+.SignUp_Password:hover{
+    color: rgb(139, 69, 161);
+}
+.inputfield:focus{
+    background-color: rgb(255, 232, 243); outline-color: rgb(255, 255, 255);outline-width: 10px;
+}
+.inputfield{
+    border-radius: 12px; border-color: rgb(255, 255, 255); height: 20px;
+}
+a{
+   text-decoration: none; color: rgb(133, 133, 133);
+}
+a:hover{
+    color: rgb(255, 255, 255);
+}
+.navdiv{
+    display: flex; align-items: center; justify-content: space-between;
+}
+li{
+    list-style: none;
+display: inline-block;
+margin-right: 180px;
+}
+.logo{
+    color: rgb(161, 78, 237);
+    font-size: 30px;
+    font-weight: 600;
+}
+.pinkstatic{
+    color: rgb(255, 255, 255); background-color: rgb(255, 163, 209);
+    border-radius: 5px; background;
+}
+fieldset{
+    text-align: center;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    border-radius: 10px;
+    width: 180px;
+    
+}
+.inputtab{
+    text-align: center;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin-bottom: 10px;
+
+}
+.fieldset1{
+    padding: 17px 17px; margin-bottom: 15px;
+}
+.fieldset2{
+    padding: 17px 17px;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; 
+    height: 50%; 
+    margin-bottom: 80px;
+}
+
+/* Page3 css*/
+.form-containerPage3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; 
+    height: 50%; 
+    margin-bottom: 80px;
+}
+
+.fieldset1Page3{
+    padding: 17px 17px; margin-bottom: 15px; width: 180px; 
+}
+.fieldset2Page3{
+    padding: 17px 17px;
+}
+#seatsinputsize{
+    width: 165px; height: 20px;
+}
+#classinputsize{
+    width: 165px; height: 20px;
+}
+.radio{padding-top: 5px;}
+
+/* Page4 css*/
+.form-containerPage4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; 
+    height: 50%; 
+    margin-bottom: 80px;
+}
+.fieldset1Page4{
+    padding: 17px 17px; margin-bottom: 15px; width: 180px; 
+}
+.LOGOUT:hover{
+    color: rgb(255, 255, 255); background-color: rgb(161, 78, 237);
+    border-radius: 5px;
+
+}
+li{
+    color: rgb(133, 133, 133);
+}
