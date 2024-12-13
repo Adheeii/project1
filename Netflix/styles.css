@@ -1,0 +1,144 @@
+.netflixlogo {
+    width: 200px;
+    height: auto;
+}
+
+.navbar {
+    z-index: 2;
+}
+
+.backgroundimage {
+    background-image: url("/assests/netflix.bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.home_centre_div {
+    margin-top: 15px;
+    position: relative;
+    z-index: 2;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input.form-control {
+    background-color: black;
+    opacity: 80%;
+    width: 300px;
+    height: 100%;
+    margin-right: 10px;
+}
+
+button.btn {
+    background-color: #E52B12;
+    height: 50px;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.d-inline-flex {
+    display: flex;
+    align-items: center;
+}
+
+.h1font {
+    margin-bottom: 30px;
+}
+
+.h5font {
+    margin-bottom: 30px;
+}
+
+.BlackContainer {
+    width: 100%;
+    background-image: linear-gradient(rgb(12, 12, 100), black 80px);
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+}
+
+.DetailsContainer,
+.DetailsContainer2{
+    width: 90%;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    margin-top: 80px;
+}
+
+.dropdowncontainer {
+    display: flex;
+}
+
+.Cardcontainer {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.CardContainer2 {
+    flex-direction: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    height: ;
+}
+
+.card-body {
+    border-radius: 8px;
+    background-image: linear-gradient(rgba(12, 12, 84, 0.874), rgb(35, 8, 48) 180px);
+}
+.AccordionContainer {
+    width: 80%;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    margin-top: 80px;
+}
+
+.accordion-button {
+    background-color: black;      
+    color: white;                  
+}
+
+.home_centre_div2{
+    margin-top: 15px;
+    position: relative;
+    z-index: 2;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.GridContainer{
+    width: 90%;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    margin-top: 80px;
+    align-self: center;
+}
+.form-control{height: 30px;}
+
+.LastConatiner{
+    width: 10%;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    margin-top: 80px;
+    text-align: center;
+    align-self: self-start; margin-left: 70px; margin-bottom: 50px;
+}
+input.form-control::placeholder {
+    color: #888888;
+}
